@@ -1,0 +1,20 @@
+package runner;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+/* @CucumberOptions(
+		features = "src/test/java/features/test.feature::Creating new account"
+		,glue= {"seleniumgluecode"}
+		)  */
+@CucumberOptions(
+		features = "src/test/java/features"
+		,glue= {"seleniumgluecode"}
+		)
+	    
+public class testrunner {
+
+}
